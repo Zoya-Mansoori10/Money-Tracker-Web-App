@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: none; */
+    /* background-color: #663a3a; */
+    background-image: url('https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #app {
+    text-align: center;
+    background: none;
+    /* background-color: rgb(238, 166, 166); */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  form {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select, button {
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #559257;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #326935;
+  }
+  
+
+  #transactions {
+    text-align: left;
+  }
+  
